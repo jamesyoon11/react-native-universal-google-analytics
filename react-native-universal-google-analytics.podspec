@@ -14,9 +14,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '9.0'
   s.source_files = 'ios/**/*.{h,m}'
-  s.requires_arc = true
 
   s.dependency 'React'
-  s.dependency 'GoogleAnalytics', '3.17.0'
 
 end
