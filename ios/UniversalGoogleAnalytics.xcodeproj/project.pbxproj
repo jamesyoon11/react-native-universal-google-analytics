@@ -6,6 +6,11 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D4DA8E0125ECB1DF00FDEFEE /* UniversalGoogleAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BC9F2525D5D8D800075B68 /* UniversalGoogleAnalytics.m */; };
+		D4DA8E0325ECB1F100FDEFEE /* UniversalGoogleAnalytics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5BC9F2625D5D8D800075B68 /* UniversalGoogleAnalytics.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -13,6 +18,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				D4DA8E0325ECB1F100FDEFEE /* UniversalGoogleAnalytics.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4DA8E0125ECB1DF00FDEFEE /* UniversalGoogleAnalytics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
