@@ -27,8 +27,8 @@
     "name": "James Yoon",
     "email": "jamesyoon11@hotmail.com"
   },
-  "license": "MIT",
-  "licenseFilename": "LICENSE",
+  "license": "LICENSE.md",
+  "licenseFilename": "LICENSE.md",
   "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "^16.13.1",
