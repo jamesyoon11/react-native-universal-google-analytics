@@ -21,7 +21,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 Podfile.lock
-xcuserdata/
+xcshareddata
 
 # Android/IntelliJ
 #

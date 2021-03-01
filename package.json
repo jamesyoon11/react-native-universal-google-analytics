@@ -2,8 +2,8 @@
   "name": "react-native-universal-google-analytics",
   "title": "React Native Universal Google Analytics",
   "version": "1.0.0",
-  "description": "Universal Google Analytics SDK for React Native.",
-  "summary": "Google sunset the Universal Google Analytics SDK for regular users. However, it still works for Google 360 customers.",
+  "description": "Google sunset the Universal Google Analytics SDK for regular users. However, it still works for Google 360 customers.",
+  "summary": "Universal Google Analytics SDK for React Native.",
   "main": "index.js",
   "files": [
     "README.md",
@@ -31,11 +31,10 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "^16.8.1",
-    "react-native": ">=0.60.0-rc.0 <1.0.x"
+    "react": "^16.13.1",
+    "react-native": "^0.63.4"
   },
-  "devDependencies": {
-    "react": "^16.9.0",
-    "react-native": "^0.61.5"
+  "dependencies": {
+    "standard": "^8.6.0"
   }
 }
