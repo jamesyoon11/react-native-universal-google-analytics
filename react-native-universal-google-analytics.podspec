@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.authors      = package['author']
   s.source       = { :git => 'https://github.com/jamesyoon11/react-native-universal-google-analytics.git', :tag => s.version }
 
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '8.0'
   s.source_files = 'ios/**/*.{h,m}'
+  s.requires_arc = true
 
-  s.dependency 'React'
-  s.dependency 'GoogleAnalytics', '3.17.0'
-
+  s.dependency "React", "> 0.10.0"
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SRCROOT)/../sample/node_modules/react-native/React', "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES" }
 end
